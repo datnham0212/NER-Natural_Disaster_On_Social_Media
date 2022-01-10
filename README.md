@@ -29,18 +29,17 @@ N.E.R: Named Entity Recognition
    - Use Case: Businesses can track mentions of their brand or competitors, analyzing sentiment and engagement around key figures and locations.
 
 
->> Topic of NER:
-   	- Objective: Analyze social media posts for trending topics and entities.
-	- Details: Scrape data from platforms like Twitter or Reddit, run NER to extract relevant entities, and visualize trends over time.
+>> What I've decided: an NER project using a dataset from Hugging Face, spaCy, and Streamlit
 
-
->> What I've decided: an NER project using a dataset from Hugging Face, spaCy, and Streamlit:
+>> Topic of NER: Natural disasters from social media
+   	- Objective: Analyze dateset for related topics and entities.
+	  - Details: In addition to working with the current dataset, scrape data from other sources like news articles or additional social media platforms (Reddit, Facebook, Twitter, etc...) to further refine and enrich your dataset. Apply Named Entity Recognition (NER) to extract relevant entities and analyze sentiment trends alongside the occurrence of natural disasters.
 
 >> Steps to Get Started
 
 Step 1: Data Collection  
 - Find a relevant dataset for your NER project. You can use the Hugging Face Datasets library to access various datasets suitable for social media analysis.
-- Link to the dataset: [Hugging Face Datasets](https://huggingface.co/datasets).
+- Link to the dataset: https://huggingface.co/datasets/melisekm/natural-disasters-from-social-media
 
 Step 2: Model Selection  
 - Choose a suitable NER model. For this project, you will use spaCy as your framework, leveraging its built-in capabilities for named entity recognition.
