@@ -122,3 +122,5 @@ Steps to Implement Your NER Project
 
 5. **Iterate and Improve**:
    - Test your app, refine your entity extraction logic, and consider adding features like data visualization or feedback mechanisms.
+
+>> More to come...
